@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { InputContainer } from './styles';
 
 export default function Input() {
   return (
-    <div>Input</div>
+    <InputContainer>
+    <input />
+    </InputContainer>
   )
 }
