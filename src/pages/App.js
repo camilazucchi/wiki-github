@@ -2,6 +2,7 @@ import { DiGithubBadge } from "react-icons/di";
 import { IconContext } from "react-icons";
 import { Container } from "./styles";
 import Input from "../components/Input";
+import ItemRepo from "../components/ItemRepo";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <IconContext.Provider value={{ color: "#fdfffc", size: "5rem" }}>
         <DiGithubBadge />
         <Input />
+        <ItemRepo />
       </IconContext.Provider>
     </Container>
   );
