@@ -19,33 +19,6 @@ Para rodar o projeto, é necessário:
 ```bash
 npm start
 ```
-    
-## Rodando localmente
-
-Clone o projeto
-
-```bash
-  git clone https://github.com/camilazucchi/wiki-github
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd wiki-github
-```
-
-Instale as dependências
-
-```bash
-  npm install
-```
-
-Inicie o servidor
-
-```bash
-  npm run start
-```
-
 
 ## Autores
 
