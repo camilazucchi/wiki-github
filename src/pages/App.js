@@ -1,7 +1,7 @@
 import { DiGithubBadge } from "react-icons/di";
 import { Container } from "./styles";
 
-function App() {
+export default function App() {
   return (
     <Container>
     <DiGithubBadge />
@@ -9,5 +9,3 @@ function App() {
     </Container>
   )
 }
-
-export default App;
