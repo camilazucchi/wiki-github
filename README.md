@@ -13,7 +13,7 @@ Para rodar o projeto, é necessário:
 
 ```bash
   npm install
-  cd react-calculadora
+  cd wiki-github
 ```
 - Executar o projeto:
 ```bash
