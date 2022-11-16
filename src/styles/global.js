@@ -8,8 +8,8 @@ export default createGlobalStyle`
     }
 
     body {
-        background-color: #2f3e46;
-        color: #cad2c5;
+        background-color: #011627;
+        color: #fdfffc;
         font-family: 'Montserrat', sans-serif;
     }
 `

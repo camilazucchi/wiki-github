@@ -6,7 +6,7 @@ import Input from "../components/Input";
 export default function App() {
   return (
     <Container>
-      <IconContext.Provider value={{ color: "white", size: "5rem" }}>
+      <IconContext.Provider value={{ color: "#fdfffc", size: "5rem" }}>
         <DiGithubBadge />
         <Input />
       </IconContext.Provider>

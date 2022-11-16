@@ -4,7 +4,7 @@ export const InputContainer = styled.div`
   height: 1.875rem;
   width: 80%;
   margin: 1rem;
-  border: 0.063rem solid #dad7cd;
+  border: 0.063rem solid #fdfffc;
   border-radius: 1.25rem;
 
   input {
@@ -15,7 +15,7 @@ export const InputContainer = styled.div`
     border: none;
     border-radius: 1.25rem;
     font-size: 1rem;
-    color: #dad7cd;
+    color: #fdfffc;
   }
 
   textarea:focus, input:focus {
