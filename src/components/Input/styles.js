@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import { colors } from "../../styles/colors";
 
 export const InputContainer = styled.div`
   height: 1.875rem;
   width: 80%;
   margin: 1rem;
-  border: 0.063rem solid #fdfffc;
+  border: 0.063rem solid ${colors.secondary};
   border-radius: 1.25rem;
 
   input {
@@ -15,10 +16,11 @@ export const InputContainer = styled.div`
     border: none;
     border-radius: 1.25rem;
     font-size: 1rem;
-    color: #fdfffc;
+    color: ${colors.tertiary};
   }
 
   textarea:focus, input:focus {
     outline: none;
+    border: 0.063rem solid ${colors.tertiary};
   }
 `;
